@@ -2,6 +2,8 @@
 https://www.kaggle.com/competitions/icr-identify-age-related-conditions/data - the link to access the competition.  Following were the team members: 
 SUBMITTED BY – GROUP 4 VANSHIKA (SID: 041044413) SARTAJ SINGH BABRA (SID: 041094831) NAITIK TALATI (SID: 041084256) SAIYAM SHAH: (SID: 041080364) JAY PATEL (SID: 041085500)
 
+Python Code File, Techinical Report - word doc and PowerPoint report are attached to get the deep insights
+
 ABSTRACT:
 The purpose of this report is to describe the creation and testing of a predictive model for age-related illness disorders. The Invitro Cell Research, LLC (ICR) competition aims to predict whether a person has one of three age-related medical disorders (Class 1) or none of these conditions (Class 0). The model is based on anonymized measures of health parameters to protect patient privacy.
 The goal of this competition is to simplify the process of determining whether someone has these medical disorders, which now includes a time-consuming and intrusive data collection process from patients. By utilizing crucial health variables while keeping patient details confidential, predictive models can assist shorten this procedure.
@@ -25,19 +27,33 @@ The competition requires competitors to create a prediction model based on train
 Key Points:
 
 1.The modeling was completed on the test data set whch had 617 records and 58 features
+
 2.Out of 58 - 56 are health conditions,1 is class (Target Variable) and ID.
+
 3. Values are missing in multiple features columns like BQ, CB, CC etc.
-4. EJ one of the health condition - the data was categorical for others it was numerical
-5. Histrogram was plotted to understing the distribution of the values.
-6. Disribution plot was plotted to understand the distribution of target varaible in each health condition.
-7. Correlation was checked amongest the health condtion and target variable.
-8. Correlation was plotted to check the realtion b/w each health condtion
-9. Scttarplot helped to understand the distributiion of the healthcondition
-10. Box plot plotted to check the outlier and removed using IQR range.
-11. Remaing missing values were replaced by mean.
-12. The data normalized and standardized beforer modelling
-13. 9 diffrent models with and with hyper parameter tuning were applied to check the accuracy.
-14. 1 model was selected basis the score and the simplicity.
-15. In our case: Logistic regression with HPT is recommended. 
+   
+5. EJ one of the health condition - the data was categorical for others it was numerical
+   
+7. Histrogram was plotted to understing the distribution of the values.
+   
+9. Disribution plot was plotted to understand the distribution of target varaible in each health condition.
+    
+11. Correlation was checked amongest the health condtion and target variable.
+    
+13. Correlation was plotted to check the realtion b/w each health condtion
+    
+15. Scttarplot helped to understand the distributiion of the healthcondition
+    
+17. Box plot plotted to check the outlier and removed using IQR range.
+    
+18. Remaing missing values were replaced by mean.
+    
+20. The data normalized and standardized beforer modelling
+    
+22. 9 diffrent models with and with hyper parameter tuning were applied to check the accuracy.
+    
+24. 1 model was selected basis the score and the simplicity.
+    
+26. In our case: Logistic regression with HPT is recommended. 
 
 
